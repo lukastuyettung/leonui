@@ -1,5 +1,2415 @@
 const questions = [
+// ===== 120 CÂU HỎI BỔ SUNG =====
 
+// ===== LITERATURE - 24 CÂU =====
+
+{
+category:"Literature",
+question:"Ai là tác giả của tiểu thuyết 'Số đỏ'?",
+answers:["Vũ Trọng Phụng","Ngô Tất Tố","Nguyễn Công Hoan"],
+correct:0,
+explain:"'Số đỏ' là tiểu thuyết nổi tiếng của Vũ Trọng Phụng."
+},
+
+{
+category:"Literature",
+question:"Nhân vật Xuân Tóc Đỏ xuất hiện trong tác phẩm nào?",
+answers:["Số đỏ","Tắt đèn","Bước đường cùng"],
+correct:0,
+explain:"Xuân Tóc Đỏ là nhân vật trung tâm của tiểu thuyết 'Số đỏ'."
+},
+
+{
+category:"Literature",
+question:"Ai là tác giả của truyện ngắn 'Hai đứa trẻ'?",
+answers:["Thạch Lam","Nam Cao","Kim Lân"],
+correct:0,
+explain:"'Hai đứa trẻ' là truyện ngắn tiêu biểu của Thạch Lam."
+},
+
+{
+category:"Literature",
+question:"Tác phẩm 'Chữ người tử tù' do ai sáng tác?",
+answers:["Nguyễn Tuân","Nguyễn Huy Tưởng","Nguyễn Minh Châu"],
+correct:0,
+explain:"'Chữ người tử tù' là truyện ngắn nổi tiếng của Nguyễn Tuân."
+},
+
+{
+category:"Literature",
+question:"Nhân vật Huấn Cao xuất hiện trong tác phẩm nào?",
+answers:["Chữ người tử tù","Vợ nhặt","Làng"],
+correct:0,
+explain:"Huấn Cao là nhân vật trung tâm trong 'Chữ người tử tù'."
+},
+
+{
+category:"Literature",
+question:"Ai là tác giả bài thơ 'Đây thôn Vĩ Dạ'?",
+answers:["Hàn Mặc Tử","Xuân Diệu","Huy Cận"],
+correct:0,
+explain:"'Đây thôn Vĩ Dạ' là một trong những bài thơ nổi tiếng nhất của Hàn Mặc Tử."
+},
+
+{
+category:"Literature",
+question:"Bài thơ 'Tràng giang' là sáng tác của ai?",
+answers:["Huy Cận","Chế Lan Viên","Tế Hanh"],
+correct:0,
+explain:"Huy Cận sáng tác 'Tràng giang', in trong tập 'Lửa thiêng'."
+},
+
+{
+category:"Literature",
+question:"Ai là tác giả bài thơ 'Viếng lăng Bác'?",
+answers:["Viễn Phương","Thanh Hải","Tố Hữu"],
+correct:0,
+explain:"'Viếng lăng Bác' là bài thơ nổi tiếng của Viễn Phương."
+},
+
+{
+category:"Literature",
+question:"Tác phẩm 'Làng' của Kim Lân có nhân vật chính là ai?",
+answers:["Ông Hai","Anh thanh niên","Ông giáo"],
+correct:0,
+explain:"Ông Hai là nhân vật chính trong truyện ngắn 'Làng'."
+},
+
+{
+category:"Literature",
+question:"Trong 'Vợ nhặt', nhân vật Tràng làm nghề gì?",
+answers:["Kéo xe bò thuê","Làm ruộng","Dạy học"],
+correct:0,
+explain:"Tràng là một người dân nghèo làm nghề kéo xe bò thuê."
+},
+
+{
+category:"Literature",
+question:"Từ nào dưới đây là từ láy toàn bộ?",
+answers:["Xanh xanh","Lấp ló","Lung linh"],
+correct:0,
+explain:"'Xanh xanh' lặp lại toàn bộ tiếng gốc nên là từ láy toàn bộ."
+},
+
+{
+category:"Literature",
+question:"Từ nào dưới đây là từ ghép đẳng lập?",
+answers:["Cha mẹ","Xe máy","Bút chì"],
+correct:0,
+explain:"'Cha' và 'mẹ' có quan hệ bình đẳng về nghĩa."
+},
+
+{
+category:"Literature",
+question:"Từ nào dưới đây là từ tượng thanh?",
+answers:["Lộp bộp","Lững thững","Lom khom"],
+correct:0,
+explain:"'Lộp bộp' mô phỏng âm thanh của vật rơi hoặc tiếng mưa."
+},
+
+{
+category:"Literature",
+question:"Từ nào dưới đây là từ tượng hình?",
+answers:["Lững thững","Leng keng","Róc rách"],
+correct:0,
+explain:"'Lững thững' gợi tả dáng đi chậm rãi."
+},
+
+{
+category:"Literature",
+question:"Trong câu 'Những bông hoa đang mỉm cười trong nắng', biện pháp tu từ là gì?",
+answers:["Nhân hóa","Hoán dụ","Nói giảm"],
+correct:0,
+explain:"Hoa được gán hành động 'mỉm cười' của con người."
+},
+
+{
+category:"Literature",
+question:"Trong câu 'Trẻ em như búp trên cành', biện pháp tu từ là gì?",
+answers:["So sánh","Ẩn dụ","Hoán dụ"],
+correct:0,
+explain:"Trẻ em được so sánh trực tiếp với búp trên cành qua từ 'như'."
+},
+
+{
+category:"Literature",
+question:"Cụm từ 'mái đầu xanh' thường dùng để chỉ đối tượng nào?",
+answers:["Người trẻ tuổi","Người cao tuổi","Người lao động"],
+correct:0,
+explain:"'Mái đầu xanh' là hình ảnh hoán dụ chỉ người còn trẻ."
+},
+
+{
+category:"Literature",
+question:"Thành ngữ 'Chân lấm tay bùn' thường dùng để chỉ ai?",
+answers:["Người nông dân","Người buôn bán","Người học sinh"],
+correct:0,
+explain:"Thành ngữ gợi hình ảnh người nông dân lao động vất vả trên đồng ruộng."
+},
+
+{
+category:"Literature",
+question:"Thành ngữ 'Múa rìu qua mắt thợ' có ý nghĩa gì?",
+answers:["Khoe tài trước người giỏi hơn mình","Làm việc rất khéo","Học hỏi người có kinh nghiệm"],
+correct:0,
+explain:"Thành ngữ chỉ việc phô diễn khả năng trước người thực sự giỏi hơn."
+},
+
+{
+category:"Literature",
+question:"Thành ngữ 'Gần mực thì đen, gần đèn thì sáng' nói về điều gì?",
+answers:["Ảnh hưởng của môi trường sống","Tầm quan trọng của ánh sáng","Sự khác nhau giữa người tốt và xấu"],
+correct:0,
+explain:"Câu nói nhấn mạnh ảnh hưởng của môi trường và những người xung quanh."
+},
+
+{
+category:"Literature",
+question:"Điển tích 'Kết cỏ ngậm vành' nói về phẩm chất nào?",
+answers:["Lòng biết ơn","Sự dũng cảm","Tính khiêm tốn"],
+correct:0,
+explain:"'Kết cỏ ngậm vành' dùng để nói về việc ghi nhớ và báo đáp ân nghĩa."
+},
+
+{
+category:"Literature",
+question:"Điển tích 'Chiếc hộp Pandora' thường tượng trưng cho điều gì?",
+answers:["Nguồn gốc của nhiều tai họa","Một kho báu bí mật","Sự bất tử"],
+correct:0,
+explain:"Trong thần thoại Hy Lạp, việc mở chiếc hộp Pandora giải phóng nhiều tai họa ra thế giới."
+},
+
+{
+category:"Literature",
+question:"Từ nào dưới đây viết đúng chính tả?",
+answers:["Xán lạn","Sáng lạng","Xáng lạn"],
+correct:0,
+explain:"'Xán lạn' là cách viết đúng, mang nghĩa rực rỡ, tươi sáng."
+},
+
+{
+category:"Literature",
+question:"Từ nào dưới đây viết đúng chính tả?",
+answers:["Sơ suất","Sơ xuất","Xơ suất"],
+correct:0,
+explain:"'Sơ suất' có nghĩa là thiếu cẩn thận."
+},
+
+// ===== CHEMISTRY - 24 CÂU =====
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có ký hiệu hóa học là Mg?",
+answers:["Magie","Mangan","Thủy ngân"],
+correct:0,
+explain:"Mg là ký hiệu hóa học của magie."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có ký hiệu hóa học là Cu?",
+answers:["Đồng","Canxi","Coban"],
+correct:0,
+explain:"Cu bắt nguồn từ tên Latin 'cuprum', nghĩa là đồng."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có ký hiệu hóa học là Zn?",
+answers:["Kẽm","Thiếc","Zirconi"],
+correct:0,
+explain:"Zn là ký hiệu hóa học của kẽm."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có ký hiệu hóa học là Pb?",
+answers:["Chì","Bạch kim","Photpho"],
+correct:0,
+explain:"Pb là ký hiệu của chì, bắt nguồn từ tiếng Latin 'plumbum'."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có ký hiệu hóa học là Sn?",
+answers:["Thiếc","Lưu huỳnh","Natri"],
+correct:0,
+explain:"Sn là ký hiệu của thiếc, từ tên Latin 'stannum'."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có ký hiệu hóa học là Cl?",
+answers:["Clo","Canxi","Carbon"],
+correct:0,
+explain:"Cl là ký hiệu hóa học của clo."
+},
+
+{
+category:"Chemistry",
+question:"Công thức hóa học của khí oxy là gì?",
+answers:["O₂","O₃","CO₂"],
+correct:0,
+explain:"Khí oxy thông thường tồn tại dưới dạng phân tử O₂."
+},
+
+{
+category:"Chemistry",
+question:"Công thức hóa học của khí nitơ là gì?",
+answers:["N₂","NO₂","NH₃"],
+correct:0,
+explain:"Khí nitơ trong khí quyển tồn tại chủ yếu dưới dạng N₂."
+},
+
+{
+category:"Chemistry",
+question:"Công thức hóa học của methane là gì?",
+answers:["CH₄","C₂H₆","CO₂"],
+correct:0,
+explain:"Methane là hydrocarbon đơn giản nhất với công thức CH₄."
+},
+
+{
+category:"Chemistry",
+question:"Công thức hóa học của ammonia là gì?",
+answers:["NH₃","NO₂","N₂O"],
+correct:0,
+explain:"Ammonia có công thức hóa học NH₃."
+},
+
+{
+category:"Chemistry",
+question:"Axit sulfuric có công thức hóa học nào?",
+answers:["H₂SO₄","HCl","HNO₃"],
+correct:0,
+explain:"H₂SO₄ là công thức của axit sulfuric."
+},
+
+{
+category:"Chemistry",
+question:"Axit hydrochloric có công thức hóa học nào?",
+answers:["HCl","H₂SO₄","H₃PO₄"],
+correct:0,
+explain:"HCl trong dung dịch nước được gọi là axit hydrochloric."
+},
+
+{
+category:"Chemistry",
+question:"Chất nào tạo vị chua đặc trưng trong giấm ăn?",
+answers:["Axit acetic","Axit sulfuric","Axit nitric"],
+correct:0,
+explain:"Giấm ăn chứa dung dịch axit acetic loãng."
+},
+
+{
+category:"Chemistry",
+question:"Khí nào tạo nên mùi đặc trưng của trứng thối?",
+answers:["Hydrogen sulfide","Oxy","Nitơ"],
+correct:0,
+explain:"Hydrogen sulfide (H₂S) có mùi trứng thối đặc trưng."
+},
+
+{
+category:"Chemistry",
+question:"Hiện tượng sắt bị gỉ cần sự tham gia chủ yếu của những chất nào?",
+answers:["Oxy và nước","Nitơ và nước","Hydro và oxy"],
+correct:0,
+explain:"Sắt bị ăn mòn trong môi trường có oxy và độ ẩm."
+},
+
+{
+category:"Chemistry",
+question:"Đồng để lâu ngoài không khí ẩm có thể xuất hiện lớp màu gì?",
+answers:["Xanh lục","Tím","Đen tuyền"],
+correct:0,
+explain:"Đồng có thể tạo lớp patina màu xanh lục do các hợp chất đồng hình thành trên bề mặt."
+},
+
+{
+category:"Chemistry",
+question:"Khí hiếm nào thường được dùng trong các biển quảng cáo phát sáng?",
+answers:["Neon","Nitơ","Hydro"],
+correct:0,
+explain:"Neon phát ánh sáng đỏ cam đặc trưng khi có dòng điện đi qua."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào thường được dùng trong nhiệt kế truyền thống?",
+answers:["Thủy ngân","Nhôm","Canxi"],
+correct:0,
+explain:"Thủy ngân từng được dùng phổ biến trong nhiệt kế thủy ngân."
+},
+
+{
+category:"Chemistry",
+question:"Bạch kim có ký hiệu hóa học là gì?",
+answers:["Pt","Pb","Pd"],
+correct:0,
+explain:"Pt là ký hiệu hóa học của platinum, tức bạch kim."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có số hiệu nguyên tử 6?",
+answers:["Carbon","Oxy","Nitơ"],
+correct:0,
+explain:"Carbon có số hiệu nguyên tử 6."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có số hiệu nguyên tử 8?",
+answers:["Oxy","Carbon","Neon"],
+correct:0,
+explain:"Oxy có 8 proton nên có số hiệu nguyên tử 8."
+},
+
+{
+category:"Chemistry",
+question:"Nguyên tố nào có số hiệu nguyên tử 79?",
+answers:["Vàng","Bạc","Đồng"],
+correct:0,
+explain:"Vàng (Au) có số hiệu nguyên tử 79."
+},
+
+{
+category:"Chemistry",
+question:"Quá trình chất rắn chuyển trực tiếp thành chất khí gọi là gì?",
+answers:["Thăng hoa","Ngưng tụ","Nóng chảy"],
+correct:0,
+explain:"Thăng hoa là quá trình chuyển trực tiếp từ thể rắn sang thể khí."
+},
+
+{
+category:"Chemistry",
+question:"Quá trình chất khí chuyển thành chất lỏng gọi là gì?",
+answers:["Ngưng tụ","Bay hơi","Thăng hoa"],
+correct:0,
+explain:"Ngưng tụ là sự chuyển trạng thái từ khí sang lỏng."
+},
+
+// ===== BIOLOGY - 24 CÂU =====
+
+{
+category:"Biology",
+question:"Cơ quan lớn nhất của cơ thể người là gì?",
+answers:["Da","Gan","Phổi"],
+correct:0,
+explain:"Da là cơ quan có diện tích lớn nhất của cơ thể người."
+},
+
+{
+category:"Biology",
+question:"Xương dài nhất trong cơ thể người là xương nào?",
+answers:["Xương đùi","Xương cánh tay","Xương chày"],
+correct:0,
+explain:"Xương đùi là xương dài và khỏe nhất trong cơ thể."
+},
+
+{
+category:"Biology",
+question:"Xương nhỏ nhất trong cơ thể người nằm ở đâu?",
+answers:["Tai giữa","Bàn tay","Bàn chân"],
+correct:0,
+explain:"Xương bàn đạp ở tai giữa là xương nhỏ nhất của cơ thể."
+},
+
+{
+category:"Biology",
+question:"Cơ quan nào sản xuất insulin trong cơ thể người?",
+answers:["Tuyến tụy","Gan","Thận"],
+correct:0,
+explain:"Các tế bào beta của đảo tụy sản xuất hormone insulin."
+},
+
+{
+category:"Biology",
+question:"Hormone insulin có vai trò chính nào?",
+answers:["Điều hòa đường huyết","Điều hòa thân nhiệt","Tăng nhịp tim"],
+correct:0,
+explain:"Insulin giúp hạ và điều hòa nồng độ glucose trong máu."
+},
+
+{
+category:"Biology",
+question:"Bộ phận nào của não đóng vai trò quan trọng trong thăng bằng và phối hợp vận động?",
+answers:["Tiểu não","Hành não","Đồi thị"],
+correct:0,
+explain:"Tiểu não tham gia điều hòa thăng bằng và phối hợp các vận động."
+},
+
+{
+category:"Biology",
+question:"Phần nào của tế bào chứa phần lớn vật chất di truyền ở tế bào nhân thực?",
+answers:["Nhân tế bào","Màng tế bào","Ribosome"],
+correct:0,
+explain:"Phần lớn ADN của tế bào nhân thực nằm trong nhân."
+},
+
+{
+category:"Biology",
+question:"Bào quan nào chịu trách nhiệm chính cho quá trình quang hợp ở thực vật?",
+answers:["Lục lạp","Ti thể","Ribosome"],
+correct:0,
+explain:"Lục lạp chứa chlorophyll và là nơi diễn ra quang hợp."
+},
+
+{
+category:"Biology",
+question:"Sắc tố nào giúp lá cây hấp thụ ánh sáng để quang hợp?",
+answers:["Chlorophyll","Melanin","Hemoglobin"],
+correct:0,
+explain:"Chlorophyll hay diệp lục hấp thụ năng lượng ánh sáng cho quang hợp."
+},
+
+{
+category:"Biology",
+question:"Khí nào được thực vật giải phóng trong quá trình quang hợp?",
+answers:["Oxy","Nitơ","Methane"],
+correct:0,
+explain:"Quang hợp giải phóng oxy như một sản phẩm của quá trình."
+},
+
+{
+category:"Biology",
+question:"Đơn vị cơ bản của sự sống là gì?",
+answers:["Tế bào","Mô","Cơ quan"],
+correct:0,
+explain:"Tế bào là đơn vị cấu trúc và chức năng cơ bản của sinh vật."
+},
+
+{
+category:"Biology",
+question:"Loài động vật nào là động vật có vú nhưng đẻ trứng?",
+answers:["Thú mỏ vịt","Cá heo","Dơi"],
+correct:0,
+explain:"Thú mỏ vịt thuộc nhóm động vật đơn huyệt, là động vật có vú đẻ trứng."
+},
+
+{
+category:"Biology",
+question:"Loài chim nào lớn nhất còn tồn tại hiện nay?",
+answers:["Đà điểu","Đại bàng","Chim cánh cụt hoàng đế"],
+correct:0,
+explain:"Đà điểu là loài chim lớn nhất còn sống hiện nay."
+},
+
+{
+category:"Biology",
+question:"Loài chim nào có khả năng bay lùi?",
+answers:["Chim ruồi","Chim én","Đại bàng"],
+correct:0,
+explain:"Chim ruồi có cấu trúc cánh đặc biệt cho phép chúng bay lùi."
+},
+
+{
+category:"Biology",
+question:"Cá voi hô hấp bằng cơ quan nào?",
+answers:["Phổi","Mang","Da"],
+correct:0,
+explain:"Cá voi là động vật có vú nên hô hấp bằng phổi."
+},
+
+{
+category:"Biology",
+question:"Cá heo thuộc nhóm động vật nào?",
+answers:["Động vật có vú","Cá xương","Động vật lưỡng cư"],
+correct:0,
+explain:"Cá heo là động vật có vú sống dưới nước."
+},
+
+{
+category:"Biology",
+question:"Ếch trưởng thành hô hấp chủ yếu bằng những cơ quan nào?",
+answers:["Phổi và da","Mang và phổi","Chỉ bằng da"],
+correct:0,
+explain:"Ếch trưởng thành trao đổi khí qua phổi và qua da."
+},
+
+{
+category:"Biology",
+question:"Loài côn trùng nào trải qua giai đoạn nhộng trước khi trưởng thành?",
+answers:["Bướm","Châu chấu","Bọ ngựa"],
+correct:0,
+explain:"Bướm trải qua biến thái hoàn toàn gồm trứng, sâu, nhộng và trưởng thành."
+},
+
+{
+category:"Biology",
+question:"Cơ thể côn trùng được chia thành bao nhiêu phần chính?",
+answers:["3","2","4"],
+correct:0,
+explain:"Cơ thể côn trùng gồm đầu, ngực và bụng."
+},
+
+{
+category:"Biology",
+question:"Nhện trưởng thành thường có bao nhiêu chân?",
+answers:["8","6","10"],
+correct:0,
+explain:"Nhện thuộc lớp hình nhện và có bốn đôi chân."
+},
+
+{
+category:"Biology",
+question:"Bạch cầu có chức năng chính nào?",
+answers:["Bảo vệ cơ thể khỏi tác nhân gây bệnh","Vận chuyển oxy","Làm đông máu"],
+correct:0,
+explain:"Bạch cầu là thành phần quan trọng của hệ miễn dịch."
+},
+
+{
+category:"Biology",
+question:"Tiểu cầu đóng vai trò quan trọng nhất trong quá trình nào?",
+answers:["Đông máu","Tiêu hóa","Hô hấp"],
+correct:0,
+explain:"Tiểu cầu tham gia hình thành cục máu đông khi mạch máu bị tổn thương."
+},
+
+{
+category:"Biology",
+question:"Hemoglobin trong hồng cầu có chức năng chính gì?",
+answers:["Vận chuyển oxy","Sản xuất hormone","Tiêu diệt vi khuẩn"],
+correct:0,
+explain:"Hemoglobin liên kết với oxy và vận chuyển oxy trong máu."
+},
+
+{
+category:"Biology",
+question:"Nhóm máu nào được gọi là người cho hồng cầu phổ quát?",
+answers:["O âm","AB dương","A dương"],
+correct:0,
+explain:"Trong truyền hồng cầu, nhóm O Rh âm thường được xem là nhóm cho phổ quát."
+},
+
+// ===== PHYSICS - 24 CÂU =====
+
+{
+category:"Physics",
+question:"Đơn vị đo công suất trong hệ SI là gì?",
+answers:["Watt","Joule","Newton"],
+correct:0,
+explain:"Công suất được đo bằng watt (W)."
+},
+
+{
+category:"Physics",
+question:"Đơn vị đo điện trở trong hệ SI là gì?",
+answers:["Ohm","Volt","Ampere"],
+correct:0,
+explain:"Điện trở được đo bằng ohm, ký hiệu Ω."
+},
+
+{
+category:"Physics",
+question:"Đơn vị đo điện tích trong hệ SI là gì?",
+answers:["Coulomb","Tesla","Watt"],
+correct:0,
+explain:"Điện tích được đo bằng coulomb (C)."
+},
+
+{
+category:"Physics",
+question:"Đơn vị đo tần số trong hệ SI là gì?",
+answers:["Hertz","Pascal","Joule"],
+correct:0,
+explain:"Tần số được đo bằng hertz (Hz)."
+},
+
+{
+category:"Physics",
+question:"Đơn vị đo áp suất trong hệ SI là gì?",
+answers:["Pascal","Newton","Watt"],
+correct:0,
+explain:"Áp suất được đo bằng pascal (Pa)."
+},
+
+{
+category:"Physics",
+question:"Một kilowatt bằng bao nhiêu watt?",
+answers:["1000","100","10000"],
+correct:0,
+explain:"Tiền tố kilo biểu thị 1000 lần đơn vị cơ bản."
+},
+
+{
+category:"Physics",
+question:"Âm thanh có thể truyền qua chân không không?",
+answers:["Không","Có","Chỉ khi tần số rất cao"],
+correct:0,
+explain:"Âm thanh là sóng cơ và cần môi trường vật chất để truyền."
+},
+
+{
+category:"Physics",
+question:"Ánh sáng có thể truyền qua chân không không?",
+answers:["Có","Không","Chỉ ánh sáng Mặt Trời"],
+correct:0,
+explain:"Sóng điện từ, bao gồm ánh sáng, có thể truyền trong chân không."
+},
+
+{
+category:"Physics",
+question:"Trong chân không, ánh sáng truyền với tốc độ xấp xỉ bao nhiêu?",
+answers:["300.000 km/s","30.000 km/s","3.000 km/s"],
+correct:0,
+explain:"Tốc độ ánh sáng trong chân không xấp xỉ 299.792 km/s."
+},
+
+{
+category:"Physics",
+question:"Thiết bị nào dùng để đo cường độ dòng điện?",
+answers:["Ampe kế","Vôn kế","Nhiệt kế"],
+correct:0,
+explain:"Ampe kế dùng để đo cường độ dòng điện."
+},
+
+{
+category:"Physics",
+question:"Thiết bị nào dùng để đo hiệu điện thế?",
+answers:["Vôn kế","Ampe kế","Lực kế"],
+correct:0,
+explain:"Vôn kế dùng để đo hiệu điện thế giữa hai điểm."
+},
+
+{
+category:"Physics",
+question:"Dòng điện trong kim loại là dòng chuyển dời có hướng của hạt nào?",
+answers:["Electron","Proton","Neutron"],
+correct:0,
+explain:"Các electron tự do chuyển động có hướng tạo thành dòng điện trong kim loại."
+},
+
+{
+category:"Physics",
+question:"Cầu vồng hình thành chủ yếu do hiện tượng nào?",
+answers:["Khúc xạ, phản xạ và tán sắc ánh sáng","Nhiễu xạ âm thanh","Cảm ứng điện từ"],
+correct:0,
+explain:"Ánh sáng Mặt Trời bị khúc xạ, phản xạ và tán sắc trong các giọt nước."
+},
+
+{
+category:"Physics",
+question:"Gương phẳng tạo ra loại ảnh nào?",
+answers:["Ảnh ảo","Ảnh thật","Không tạo ảnh"],
+correct:0,
+explain:"Gương phẳng tạo ảnh ảo, cùng chiều và có kích thước bằng vật."
+},
+
+{
+category:"Physics",
+question:"Thấu kính nào thường được dùng để khắc phục tật cận thị?",
+answers:["Thấu kính phân kỳ","Thấu kính hội tụ","Lăng kính"],
+correct:0,
+explain:"Kính cận sử dụng thấu kính phân kỳ để đưa ảnh về đúng võng mạc."
+},
+
+{
+category:"Physics",
+question:"Thấu kính nào thường được dùng trong kính lúp?",
+answers:["Thấu kính hội tụ","Thấu kính phân kỳ","Gương phẳng"],
+correct:0,
+explain:"Kính lúp là một thấu kính hội tụ có tiêu cự ngắn."
+},
+
+{
+category:"Physics",
+question:"Vật nào dưới đây có động năng?",
+answers:["Chiếc xe đang chạy","Cuốn sách nằm yên trên bàn","Viên đá nằm trên mặt đất"],
+correct:0,
+explain:"Một vật chuyển động có động năng."
+},
+
+{
+category:"Physics",
+question:"Một vật được nâng lên cao có dạng năng lượng nào tăng lên?",
+answers:["Thế năng hấp dẫn","Điện năng","Nhiệt năng"],
+correct:0,
+explain:"Thế năng hấp dẫn tăng khi độ cao của vật tăng."
+},
+
+{
+category:"Physics",
+question:"Máy phát điện biến đổi chủ yếu dạng năng lượng nào thành điện năng?",
+answers:["Cơ năng","Hóa năng","Quang năng"],
+correct:0,
+explain:"Máy phát điện biến đổi cơ năng thành điện năng nhờ cảm ứng điện từ."
+},
+
+{
+category:"Physics",
+question:"Pin mặt trời biến đổi năng lượng ánh sáng thành dạng năng lượng nào?",
+answers:["Điện năng","Cơ năng","Âm năng"],
+correct:0,
+explain:"Tế bào quang điện biến đổi năng lượng ánh sáng thành điện năng."
+},
+
+{
+category:"Physics",
+question:"Ai phát hiện hiện tượng cảm ứng điện từ?",
+answers:["Michael Faraday","Isaac Newton","Galileo Galilei"],
+correct:0,
+explain:"Michael Faraday phát hiện cảm ứng điện từ vào năm 1831."
+},
+
+{
+category:"Physics",
+question:"Nhà khoa học nào xây dựng ba định luật chuyển động nổi tiếng?",
+answers:["Isaac Newton","Albert Einstein","Niels Bohr"],
+correct:0,
+explain:"Ba định luật chuyển động là nền tảng của cơ học Newton."
+},
+
+{
+category:"Physics",
+question:"Hiện tượng vật nóng lên và phát sáng khi dòng điện chạy qua được ứng dụng trong thiết bị nào?",
+answers:["Bóng đèn sợi đốt","Pin mặt trời","La bàn"],
+correct:0,
+explain:"Dòng điện làm dây tóc bóng đèn nóng đến nhiệt độ cao và phát sáng."
+},
+
+{
+category:"Physics",
+question:"Nam châm luôn có ít nhất hai cực được gọi là gì?",
+answers:["Cực Bắc và cực Nam","Cực dương và cực âm","Cực nóng và cực lạnh"],
+correct:0,
+explain:"Nam châm có hai cực từ là Bắc và Nam."
+},
+
+// ===== MATH - 24 CÂU =====
+
+{
+category:"Math",
+question:"Số nào là số nguyên tố lớn nhất có một chữ số?",
+answers:["7","9","5"],
+correct:0,
+explain:"Các số nguyên tố một chữ số là 2, 3, 5 và 7."
+},
+
+{
+category:"Math",
+question:"Số nào dưới đây vừa là số chẵn vừa là số nguyên tố?",
+answers:["2","4","6"],
+correct:0,
+explain:"2 là số nguyên tố chẵn duy nhất."
+},
+
+{
+category:"Math",
+question:"Ước chung lớn nhất của 12 và 18 là bao nhiêu?",
+answers:["6","3","9"],
+correct:0,
+explain:"Các ước chung của 12 và 18 là 1, 2, 3, 6; lớn nhất là 6."
+},
+
+{
+category:"Math",
+question:"Bội chung nhỏ nhất của 4 và 6 là bao nhiêu?",
+answers:["12","24","10"],
+correct:0,
+explain:"12 là số nhỏ nhất chia hết cho cả 4 và 6."
+},
+
+{
+category:"Math",
+question:"Căn bậc hai số học của 144 là bao nhiêu?",
+answers:["12","14","72"],
+correct:0,
+explain:"12 × 12 = 144."
+},
+
+{
+category:"Math",
+question:"3 mũ 4 bằng bao nhiêu?",
+answers:["81","64","27"],
+correct:0,
+explain:"3⁴ = 3 × 3 × 3 × 3 = 81."
+},
+
+{
+category:"Math",
+question:"10 mũ 3 bằng bao nhiêu?",
+answers:["1000","100","10000"],
+correct:0,
+explain:"10³ = 1000."
+},
+
+{
+category:"Math",
+question:"Giá trị tuyệt đối của -15 là bao nhiêu?",
+answers:["15","-15","0"],
+correct:0,
+explain:"Giá trị tuyệt đối là khoảng cách đến 0 nên |-15| = 15."
+},
+
+{
+category:"Math",
+question:"25% của 200 bằng bao nhiêu?",
+answers:["50","25","75"],
+correct:0,
+explain:"25% × 200 = 50."
+},
+
+{
+category:"Math",
+question:"15% của 300 bằng bao nhiêu?",
+answers:["45","30","60"],
+correct:0,
+explain:"0,15 × 300 = 45."
+},
+
+{
+category:"Math",
+question:"Một nửa của ba phần tư bằng bao nhiêu?",
+answers:["3/8","2/3","1/4"],
+correct:0,
+explain:"1/2 × 3/4 = 3/8."
+},
+
+{
+category:"Math",
+question:"Phân số 12/18 rút gọn thành phân số nào?",
+answers:["2/3","3/4","6/8"],
+correct:0,
+explain:"Chia cả tử và mẫu của 12/18 cho 6 được 2/3."
+},
+
+{
+category:"Math",
+question:"0,75 tương đương với phân số tối giản nào?",
+answers:["3/4","2/3","7/10"],
+correct:0,
+explain:"0,75 = 75/100 = 3/4."
+},
+
+{
+category:"Math",
+question:"Một tam giác có tổng ba góc bằng bao nhiêu độ?",
+answers:["180","360","90"],
+correct:0,
+explain:"Tổng ba góc trong mọi tam giác phẳng bằng 180°."
+},
+
+{
+category:"Math",
+question:"Một tứ giác có tổng các góc trong bằng bao nhiêu độ?",
+answers:["360","180","540"],
+correct:0,
+explain:"Tổng các góc trong của một tứ giác bằng 360°."
+},
+
+{
+category:"Math",
+question:"Hình vuông có bao nhiêu trục đối xứng?",
+answers:["4","2","8"],
+correct:0,
+explain:"Hình vuông có bốn trục đối xứng."
+},
+
+{
+category:"Math",
+question:"Hình chữ nhật không phải hình vuông có bao nhiêu trục đối xứng?",
+answers:["2","4","1"],
+correct:0,
+explain:"Hai đường thẳng đi qua trung điểm các cặp cạnh đối diện là hai trục đối xứng."
+},
+
+{
+category:"Math",
+question:"Diện tích hình vuông cạnh 8 cm bằng bao nhiêu?",
+answers:["64 cm²","32 cm²","16 cm²"],
+correct:0,
+explain:"Diện tích hình vuông bằng cạnh nhân cạnh: 8 × 8 = 64 cm²."
+},
+
+{
+category:"Math",
+question:"Chu vi hình vuông cạnh 7 cm bằng bao nhiêu?",
+answers:["28 cm","49 cm","21 cm"],
+correct:0,
+explain:"Chu vi hình vuông bằng 4 × 7 = 28 cm."
+},
+
+{
+category:"Math",
+question:"Diện tích hình chữ nhật dài 10 cm và rộng 6 cm bằng bao nhiêu?",
+answers:["60 cm²","32 cm²","16 cm²"],
+correct:0,
+explain:"Diện tích bằng chiều dài nhân chiều rộng: 10 × 6 = 60 cm²."
+},
+
+{
+category:"Math",
+question:"Chu vi hình chữ nhật dài 9 cm và rộng 4 cm bằng bao nhiêu?",
+answers:["26 cm","36 cm","13 cm"],
+correct:0,
+explain:"Chu vi bằng 2 × (9 + 4) = 26 cm."
+},
+
+{
+category:"Math",
+question:"Một giờ rưỡi tương đương bao nhiêu phút?",
+answers:["90","75","120"],
+correct:0,
+explain:"Một giờ là 60 phút, thêm nửa giờ là 30 phút, tổng cộng 90 phút."
+},
+
+{
+category:"Math",
+question:"2,5 mét tương đương bao nhiêu centimet?",
+answers:["250","25","2500"],
+correct:0,
+explain:"1 mét = 100 cm nên 2,5 mét = 250 cm."
+},
+
+{
+category:"Math",
+question:"Trung bình cộng của 6, 8 và 10 bằng bao nhiêu?",
+answers:["8","9","7"],
+correct:0,
+explain:"(6 + 8 + 10) / 3 = 8."
+},
+  
+  {
+type:"complete",
+question:"Gieo nhân nào...",
+answers:[
+"...gặt quả nấy.",
+"...hái hoa nấy.",
+"...được phúc nấy."
+],
+correct:0,
+explain:"Hành động như thế nào sẽ nhận về kết quả tương xứng."
+},
+
+{
+type:"complete",
+question:"Cây muốn lặng mà...",
+answers:[
+"...mưa chẳng dứt.",
+"...gió chẳng ngừng.",
+"...bão chẳng qua."
+],
+correct:1,
+explain:"Diễn tả hoàn cảnh khách quan không như mong muốn của con người."
+},
+
+{
+type:"complete",
+question:"Tre già...",
+answers:[
+"...măng mọc.",
+"...cây ngã.",
+"...lá rụng."
+],
+correct:0,
+explain:"Quy luật kế thừa và tiếp nối giữa các thế hệ."
+},
+
+{
+type:"complete",
+question:"Một mặt người...",
+answers:[
+"...hơn mười mẫu ruộng.",
+"...bằng mười mặt của.",
+"...quý hơn vạn vàng."
+],
+correct:1,
+explain:"Đề cao sinh mạng và giá trị con người hơn mọi của cải."
+},
+
+{
+type:"complete",
+question:"Tấc đất...",
+answers:[
+"...tấc vàng.",
+"...tấc bạc.",
+"...tấc cơm."
+],
+correct:0,
+explain:"Nhấn mạnh giá trị vô cùng quý báu của đất đai và tài nguyên."
+},
+
+{
+type:"complete",
+question:"Học ăn, học nói...",
+answers:[
+"...học điều hay lẽ phải.",
+"...học khôn học ngoan.",
+"...học gói, học mở."
+],
+correct:2,
+explain:"Khuyên con người phải học từ những điều cơ bản, tế nhị nhất trong cuộc sống."
+},
+
+{
+type:"complete",
+question:"Cái nết...",
+answers:[
+"...đánh chết cái đẹp.",
+"...hơn vạn cái đẹp.",
+"...tạo nên con người."
+],
+correct:0,
+explain:"Phẩm chất, đạo đức quan trọng hơn vẻ đẹp hình thức bên ngoài."
+},
+
+{
+type:"complete",
+question:"Thuốc đắng dã tật...",
+answers:[
+"...lời thật thì đau.",
+"...nói thẳng mất vui.",
+"...sự thật mất lòng."
+],
+correct:2,
+explain:"Lời khuyên răn chân thật tuy khó nghe nhưng mang lại điều tốt lành."
+},
+
+{
+type:"complete",
+question:"Khẩu Phật...",
+answers:[
+"...lòng lang dạ thú.",
+"...tâm xà.",
+"...dạ rắn rết."
+],
+correct:1,
+explain:"Chỉ những kẻ ngoài mặt ra vẻ từ bi nhưng trong lòng hiểm độc."
+},
+
+{
+type:"complete",
+question:"Nói một đường...",
+answers:[
+"...làm một nẻo.",
+"...đi một ngả.",
+"...nghĩ một lối."
+],
+correct:0,
+explain:"Phê phán người không nhất quán giữa lời nói và việc làm."
+},
+
+{
+type:"complete",
+question:"Ác giả...",
+answers:[
+"...tai bay vạ gió.",
+"...ác báo.",
+"...họa vô đơn chí."
+],
+correct:1,
+explain:"Người làm việc độc ác ắt sẽ gặp quả báo tương xứng."
+},
+
+{
+type:"complete",
+question:"Bán anh em xa...",
+answers:[
+"...mua láng giềng gần.",
+"...kết bạn đường dài.",
+"...tìm tri kỷ mới."
+],
+correct:0,
+explain:"Khuyên trân trọng tình làng nghĩa xóm vì luôn gần gũi lúc tối lửa tắt đèn."
+},
+
+{
+type:"complete",
+question:"Một lần bất tín...",
+answers:[
+"...trăm lần chịu thiệt.",
+"...khó mong tha thứ.",
+"...vạn lần bất tin."
+],
+correct:2,
+explain:"Một khi đã đánh mất niềm tin thì rất khó để người khác tin lại."
+},
+
+{
+type:"complete",
+question:"Cười người hôm trước...",
+answers:[
+"...hôm sau người cười.",
+"...mai sau hối hận.",
+"...mang tội ngàn năm."
+],
+correct:0,
+explain:"Đừng vội chế giễu ai vì rất có thể chính mình sẽ gặp hoàn cảnh tương tự."
+},
+
+{
+type:"complete",
+question:"Đi thưa...",
+answers:[
+"...về thưa.",
+"...về trình.",
+"...về chào."
+],
+correct:1,
+explain:"Phép tắc lịch sự, lễ phép của con cháu đối với người trên."
+},
+
+{
+type:"complete",
+question:"Đèn nhà ai...",
+answers:[
+"...người nấy lo.",
+"...nấy rạng.",
+"...nấy sáng tỏ."
+],
+correct:1,
+explain:"Mỗi gia đình, cá nhân cần có trách nhiệm tự lo phần việc của mình."
+},
+
+{
+type:"complete",
+question:"Có bột...",
+answers:[
+"...mới gột nên hồ.",
+"...mới làm nên bánh.",
+"...mới mong no lòng."
+],
+correct:0,
+explain:"Phải có điều kiện vật chất cơ bản thì mới có thể hoàn thành công việc."
+},
+
+{
+type:"complete",
+question:"Làm phúc...",
+answers:[
+"...gặp điềm lành.",
+"...phải tội.",
+"...được trời thương."
+],
+correct:1,
+explain:"Nói về nghịch cảnh khi có ý tốt giúp đỡ nhưng lại bị hiểu lầm hoặc rước rắc rối."
+},
+
+{
+type:"complete",
+question:"Nhà sạch thì mát...",
+answers:[
+"...bát sạch ngon cơm.",
+"...cơm ngon no bụng.",
+"...áo sạch thêm vui."
+],
+correct:0,
+explain:"Khuyên giữ gìn nếp sống ngăn nắp, vệ sinh sạch sẽ."
+},
+
+{
+type:"complete",
+question:"Vỏ quýt dày...",
+answers:[
+"...dao sắc cắt ngay.",
+"...có móng tay nhọn.",
+"...ắt có gai nhọn."
+],
+correct:1,
+explain:"Người có mưu mô xảo quyệt ắt sẽ có người cao tay hơn trị phục."
+},
+
+{
+type:"complete",
+question:"Tránh vỏ dưa...",
+answers:[
+"...gặp vỏ dừa.",
+"...vấp vỏ chuối.",
+"...sa hố sâu."
+],
+correct:0,
+explain:"Tránh một điều rắc rối nhỏ nhưng lại rơi vào tình cảnh rắc rối tương tự hoặc lớn hơn."
+},
+
+{
+type:"complete",
+question:"Nuôi ong...",
+answers:[
+"...tay áo.",
+"...trong buồng.",
+"...hại người."
+],
+correct:0,
+explain:"Nuôi nấng, che chở cho kẻ phản trắc hại lại chính mình."
+},
+
+{
+type:"complete",
+question:"Gậy ông...",
+answers:[
+"...đập lưng ông.",
+"...đánh chân ông.",
+"...hại thân ông."
+],
+correct:0,
+explain:"Dùng thủ đoạn hại người nhưng chính mình lại gánh chịu hậu quả đó."
+},
+
+{
+type:"complete",
+question:"Được đằng chân...",
+answers:[
+"...lân đằng đầu.",
+"...ngồi đằng đầu.",
+"...muốn đằng tay."
+],
+correct:0,
+explain:"Phê phán thói tham lam, được chiều chuộng nên càng lấn tới."
+},
+
+{
+type:"complete",
+question:"Vạn sự khởi đầu...",
+answers:[
+"...nan.",
+"...thuận.",
+"...gian nan."
+],
+correct:0,
+explain:"Mọi việc khi mới bắt đầu thường gặp nhiều khó khăn, thử thách."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên con người phải biết tự lượng sức mình, không nên ảo tưởng?",
+answers:[
+"Biết mình biết ta, trăm trận trăm thắng.",
+"Liệu cơm gắp mắm.",
+"Nước chảy chỗ trũng."
+],
+correct:1,
+explain:"'Liệu cơm gắp mắm' khuyên con người hành động phù hợp với năng lực và hoàn cảnh."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán thói a dua, bắt chước mù quáng theo người khác?",
+answers:[
+"Đẽo cày giữa đường.",
+"Thấy người sang bắt quàng làm họ.",
+"Thấy người ta ăn khoai cũng vác mai đi đào."
+],
+correct:2,
+explain:"Châm biếm người không suy nghĩ thực tế mà chỉ biết học đòi chạy theo người khác."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào đề cao tinh thần tự lực cánh sinh, không ỷ lại?",
+answers:[
+"Tự lực cánh sinh.",
+"Bàn tay ta làm nên tất cả, có sức người sỏi đá cũng thành cơm.",
+"Làm khi lành để dành khi đau."
+],
+correct:1,
+explain:"Khẳng định sức mạnh của bàn tay lao động và sự tự lực."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên chúng ta nên cẩn thận, biết dự phòng trước những rủi ro trong tương lai?",
+answers:[
+"Làm khi lành để dành khi đau.",
+"Cơm treo mèo nhịn đói.",
+"Tháng bảy kiến bò, chỉ lo lại lụt."
+],
+correct:0,
+explain:"Khuyên biết tiết kiệm và chuẩn bị cho lúc ốm đau, hoạn nạn."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào chỉ tình cảnh tiến thoái lưỡng nan, làm gì cũng gặp khó?",
+answers:[
+"Đi mắc núi, về mắc sông.",
+"Đứng núi này trông núi nọ.",
+"Nước đến chân mới nhảy."
+],
+correct:0,
+explain:"Miêu tả sự bế tắc, tiến thoái lưỡng nan."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở người khác chớ bao giờ tự phụ vì luôn có người giỏi hơn mình?",
+answers:[
+"Núi cao còn có núi cao hơn.",
+"Cây cao đón gió lớn.",
+"Trèo cao ngã đau."
+],
+correct:0,
+explain:"Nhắc nhở con người luôn giữ đức tính khiêm nhường."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán thái độ thiếu chủ kiến, thay đổi liên tục theo ý kiến của thiên hạ?",
+answers:[
+"Đẽo cày giữa đường.",
+"Trống đánh xuôi kèn thổi ngược.",
+"Gió chiều nào theo chiều ấy."
+],
+correct:0,
+explain:"Chỉ người làm việc không có lập trường, cuối cùng hỏng việc."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khẳng định giá trị bền bỉ của việc tự mình làm việc chân chính để nuôi sống bản thân?",
+answers:[
+"Tay làm hàm nhai, tay quai miệng trễ.",
+"Buôn tàu bán bè không bằng ăn dè hà tiện.",
+"Có làm thì mới có ăn."
+],
+correct:0,
+explain:"Có lao động thì mới có cái ăn, lười biếng thì chịu đói."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên bảo anh chị em trong nhà phải biết bao bọc, nhường nhịn lẫn nhau?",
+answers:[
+"Khôn ngoan đối đáp người ngoài, gà cùng một mẹ chớ hoài đá nhau.",
+"Chị ngã em nâng.",
+"Máu chảy ruột mềm."
+],
+correct:1,
+explain:"'Chị ngã em nâng' nhắc nhở sự tương trợ, nâng đỡ nhau giữa anh chị em."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào diễn tả nỗi đau xót, gắn bó máu thịt khi người thân thích gặp nạn?",
+answers:[
+"Máu chảy ruột mềm.",
+"Răng hở môi lạnh.",
+"Một giọt máu đào hơn ao nước lã."
+],
+correct:0,
+explain:"Người thân gặp hoạn nạn thì trong lòng đau xót như chính mình bị nạn."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán việc quá chậm trễ, để việc đến sát nút mới bắt đầu làm?",
+answers:[
+"Nước đến chân mới nhảy.",
+"Mất bò mới lo làm chuồng.",
+"Đủng đỉnh như cá kình ăn sương."
+],
+correct:0,
+explain:"Chỉ thói quen chần chừ, trì hoãn cho đến khi không kịp trở tay."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nói về sự gắn bó mật thiết, nếu mất bên này thì bên kia cũng bị tổn hại?",
+answers:[
+"Môi hở răng lạnh.",
+"Cá mè một lứa.",
+"Cháy nhà hàng xóm bình chân như vại."
+],
+correct:0,
+explain:"Những đối tượng có mối liên hệ mật thiết, một bên suy yếu thì bên kia chịu ảnh hưởng."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên không nên vội vã đưa ra quyết định mà cần bàn bạc kỹ lưỡng?",
+answers:[
+"Ăn có nhai, nói có nghĩ.",
+"Cơm sôi bớt lửa, chẳng đời nào khê.",
+"Ba người đồng tâm, đồng lòng tát cạn biển Đông."
+],
+correct:0,
+explain:"Khuyên cẩn trọng và suy nghĩ chín chắn trước khi ăn nói, hành động."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khẳng định con người có thể khắc phục được những khiếm khuyết bằng sự chăm chỉ?",
+answers:[
+"Cần cù bù thông minh.",
+"Năng nhặt chặt bị.",
+"Văn hay chữ tốt không bằng dốt có tiền."
+],
+correct:0,
+explain:"Chăm chỉ, cần cù sẽ bù đắp cho sự thiếu hụt về năng khiếu hay trí tuệ."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán hành động vô ơn, vừa qua khỏi khó khăn đã quên ngay người giúp đỡ?",
+answers:[
+"Qua cầu rút ván.",
+"Ăn cháo đá bát.",
+"Khỏi rên thấu trơ."
+],
+correct:1,
+explain:"Phê phán sâu sắc sự bạc bẽo, bất nghĩa của kẻ vô ơn."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nói về sự may mắn bất ngờ, không mất công sức mà vẫn được hưởng?",
+answers:[
+"Mèo mù vớ cá rán.",
+"Há miệng chờ sung.",
+"Của trời cho không bằng no bụng."
+],
+correct:0,
+explain:"Chỉ sự may mắn tình cờ đạt được điều tốt mà không do năng lực."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào châm biếm kẻ lười biếng, chỉ ngồi thụ động chờ đợi vận may tới?",
+answers:[
+"Há miệng chờ sung.",
+"Ăn không ngồi rồi.",
+"Ngồi mát ăn bát vàng."
+],
+correct:0,
+explain:"Chỉ thói lười biếng, trông chờ may mắn tự đưa đến miệng."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở lời đã nói ra thì không thể lấy lại được, phải luôn cẩn trọng?",
+answers:[
+"Lời nói đọi máu.",
+"Nhất ngôn ký xuất, tứ mã nan truy.",
+"Uốn lưỡi bảy lần trước khi nói."
+],
+correct:2,
+explain:"Khuyên phải cân nhắc thật kỹ càng trước khi phát ngôn."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào đề cao mối quan hệ hợp tác cùng có lợi giữa các bên?",
+answers:[
+"Kẻ cắp gặp bà già điên.",
+"Đôi bên cùng có lợi.",
+"Nồi nào úp vung nấy."
+],
+correct:1,
+explain:"Hợp tác dựa trên tinh thần hỗ trợ và đem lại lợi ích chung."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên người nóng nảy nên biết hạ hỏa để không xảy ra xích mích?",
+answers:[
+"Cơm sôi bớt lửa.",
+"Giận cá chém thớt.",
+"Một điều nhịn, chín điều lành."
+],
+correct:0,
+explain:"Khuyên biết kiềm chế khi xảy ra căng thẳng để giữ hòa khí gia đình."
+},
+
+{
+type:"situation",
+question:"Mai chuẩn bị thi tốt nghiệp nhưng đến tối sát ngày thi mới mở sách ra đọc. Câu tục ngữ nào miêu tả đúng nhất thói quen này?",
+answers:[
+"Nước đến chân mới nhảy.",
+"Mất bò mới lo làm chuồng.",
+"Đêm dài lắm mộng."
+],
+correct:0,
+explain:"Chỉ thói quen chủ quan, để việc cận kề mới vội vã thực hiện."
+},
+
+{
+type:"situation",
+question:"Anh Hoàng lúc khó khăn được bạn cho mượn tiền dựng nghiệp, khi giàu có anh lại phủ nhận công lao của bạn. Câu tục ngữ nào phù hợp?",
+answers:[
+"Ăn cháo đá bát.",
+"Có mới nới cũ.",
+"Khôn nhà dại chợ."
+],
+correct:0,
+explain:"Phê phán kẻ phản trắc, vô ơn với người đã từng cưu mang mình."
+},
+
+{
+type:"situation",
+question:"Vợ chồng anh Hùng luôn giữ bình tĩnh, mỗi khi có xung đột một trong hai người luôn im lặng nhường nhịn trước. Câu tục ngữ nào phù hợp?",
+answers:[
+"Cơm sôi bớt lửa, chẳng đời nào khê.",
+"Thuận buồm xuôi gió.",
+"Răng hở môi lạnh."
+],
+correct:0,
+explain:"Khuyên biết nhường nhịn khi gia đình có mâu thuẫn để tránh đổ vỡ."
+},
+
+{
+type:"situation",
+question:"Một bạn trẻ khởi nghiệp không chịu tìm tòi nghiên cứu mà chỉ thích ngồi chờ đối tác tự tìm đến. Câu tục ngữ nào phù hợp?",
+answers:[
+"Há miệng chờ sung.",
+"Mèo mù vớ cá rán.",
+"Trâu chậm uống nước đục."
+],
+correct:0,
+explain:"Chỉ thái độ ỷ lại, thụ động mong chờ thành quả mà không làm việc."
+},
+
+{
+type:"situation",
+question:"Dù năng lực ban đầu không bằng các bạn, nhưng nhờ ngày nào cũng ở lại luyện tập miệt mài nên An trở thành học viên xuất sắc nhất. Câu nào phù hợp?",
+answers:[
+"Cần cù bù thông minh.",
+"Nước chảy đá mòn.",
+"Cây ngay không sợ chết đứng."
+],
+correct:0,
+explain:"Sự chăm chỉ, nỗ lực có thể bù đắp được sự thiếu hụt tài năng bẩm sinh."
+},
+
+{
+type:"situation",
+question:"Thấy bạn bên cạnh làm kênh YouTube kiếm được tiền, dù bản thân không hề có đam mê hay hiểu biết gì, Quân cũng vội vã mua máy móc làm theo. Câu nào phù hợp?",
+answers:[
+"Thấy người ăn khoai cũng vác mai đi đào.",
+"Gió chiều nào theo chiều ấy.",
+"Đứng núi này trông núi nọ."
+],
+correct:0,
+explain:"Chỉ việc bắt chước người khác mù quáng mà không xét điều kiện bản thân."
+},
+
+{
+type:"situation",
+question:"Ông Nam luôn giữ lại một phần lương hàng tháng để dự phòng trường hợp ốm đau bất ngờ. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Làm khi lành để dành khi đau.",
+"Buôn tàu bán bè không bằng ăn dè hà tiện.",
+"Năng nhặt chặt bị."
+],
+correct:0,
+explain:"Khuyên lo xa, tích lũy lúc khỏe mạnh để phòng khi gặp rủi ro sức khỏe."
+},
+
+{
+type:"situation",
+question:"Một người mua hàng trực tuyến không khảo sát giá cả thị trường và nhu cầu của mình mà cứ đặt mua tới tấp dẫn đến nợ nần. Câu tục ngữ nào phê phán điều này?",
+answers:[
+"Liệu cơm gắp mắm.",
+"Buôn may bán đắt.",
+"Tiền mất tật mang."
+],
+correct:0,
+explain:"Nhắc nhở con người cần biết chi tiêu phù hợp với khả năng tài chính của mình."
+},
+
+{
+type:"situation",
+question:"Tuấn định làm một sản phẩm công nghệ nhưng mỗi người góp ý một kiểu là Tuấn lại đập đi làm lại, cuối cùng không hoàn thành được gì. Câu nào phù hợp?",
+answers:[
+"Đẽo cày giữa đường.",
+"Lắm thầy nhiều ma.",
+"Ba chìm bảy nổi."
+],
+correct:0,
+explain:"Người không có lập trường kiên định, nghe ai cũng làm theo nên thất bại."
+},
+
+{
+type:"situation",
+question:"Một võ sĩ mới thắng vài trận đã tự xưng vô địch, không chịu luyện tập và bị đánh bại ngay trận sau. Câu tục ngữ nào đúng?",
+answers:[
+"Núi cao còn có núi cao hơn.",
+"Cây ngay không sợ chết đứng.",
+"Thắng không kiêu bại không nản."
+],
+correct:0,
+explain:"Nhắc nhở chớ tự mãn vì bên ngoài luôn có người giỏi hơn mình."
+},
+
+{
+type:"situation",
+question:"Một người phụ nữ dù giận hàng xóm nhưng khi nhà hàng xóm cháy, bà vẫn hò reo mọi người cùng sang dập lửa cứu hộ. Câu nào phù hợp?",
+answers:[
+"Bán anh em xa mua láng giềng gần.",
+"Cháy nhà hàng xóm bình chân như vại.",
+"Máu chảy ruột mềm."
+],
+correct:0,
+explain:"Đề cao tinh thần tương trợ lẫn nhau của tình làng nghĩa xóm khi hoạn nạn."
+},
+
+{
+type:"situation",
+question:"Khi người em trai thi rớt và suy sụp, người chị gái đã ở bên động viên, chỉ bảo giúp em vượt qua bế tắc. Câu nào phù hợp nhất?",
+answers:[
+"Chị ngã em nâng.",
+"Anh em như thể tay chân.",
+"Gà cùng một mẹ chớ hoài đá nhau."
+],
+correct:0,
+explain:"Nêu cao tình thân ái, tương trợ đùm bọc giữa chị em ruột thịt."
+},
+
+{
+type:"situation",
+question:"Một doanh nghiệp nhỏ do chủ quan nên chậm chân không nộp hồ sơ đấu thầu và để mất hợp đồng vào tay đối thủ. Câu nào phù hợp?",
+answers:[
+"Trâu chậm uống nước đục.",
+"Mất bò mới lo làm chuồng.",
+"Sai một ly đi một dặm."
+],
+correct:0,
+explain:"Chậm chạp, chần chừ thì chỉ nhận về phần thiệt thòi, thua thiệt."
+},
+
+{
+type:"situation",
+question:"Một kế toán vô ý làm lệch một con số nhỏ trong bảng cân đối kế toán khiến cả hệ thống tài chính công ty bị kiểm tra sai lệch nghiêm trọng. Câu nào phù hợp?",
+answers:[
+"Sai một ly đi một dặm.",
+"Khôn ba năm dại một giờ.",
+"Nước đổ lá khoai."
+],
+correct:0,
+explain:"Chỉ một sơ suất rất nhỏ ban đầu có thể dẫn đến sai lầm vô cùng to lớn về sau."
+},
+
+{
+type:"situation",
+question:"Biết sếp sắp giáng chức mình, ông Trưởng phòng nhanh tay xin từ chức trước để giữ thể diện. Hành động này phản ánh câu tục ngữ nào?",
+answers:[
+"Tránh vỏ dưa gặp vỏ dừa.",
+"Tránh voi chẳng xấu mặt nào.",
+"Đi trước một bước."
+],
+correct:1,
+explain:"Biết chủ động lùi bước để tránh điều bất lợi và giữ gìn danh dự."
+},
+
+{
+type:"situation",
+question:"Người cha căn dặn con trước khi phát biểu trước đám đông thì phải suy nghĩ cẩn trọng từng câu chữ. Câu tục ngữ nào phù hợp?",
+answers:[
+"Uốn lưỡi bảy lần trước khi nói.",
+"Nói có sách mách có chứng.",
+"Lời chào cao hơn mâm cỗ."
+],
+correct:0,
+explain:"Khuyên phải suy xét thật cẩn thận trước khi cất lời."
+},
+
+{
+type:"situation",
+question:"Một nhân viên cống hiến hết mình, tự tay làm việc vất vả từ sáng tới tối và nhận về mức thưởng xứng đáng. Câu nào phù hợp nhất?",
+answers:[
+"Tay làm hàm nhai, tay quai miệng trễ.",
+"Ngồi mát ăn bát vàng.",
+"Có đức mặc sức mà ăn."
+],
+correct:0,
+explain:"Lao động chân chính bằng đôi bàn tay sẽ mang lại cuộc sống ấm no."
+},
+
+{
+type:"situation",
+question:"Một bạn sinh viên đi thi dù không học bài nhưng do đề thi trùng ngẫu nhiên với bài đọc lướt qua trên xe buýt nên đạt điểm cao. Câu nào phù hợp?",
+answers:[
+"Mèo mù vớ cá rán.",
+"Hữu xạ tự nhiên hương.",
+"Thất bại là mẹ thành công."
+],
+correct:0,
+explain:"Chỉ trường hợp may mắn ngẫu nhiên chứ không phải do thực lực."
+},
+
+{
+type:"situation",
+question:"Một kẻ giăng bẫy nói xấu hạ bệ đồng nghiệp nhưng vô tình làm lộ ra những gian lận của chính mình và bị sa thải. Câu nào phù hợp?",
+answers:[
+"Gậy ông đập lưng ông.",
+"Cười người hôm trước hôm sau người cười.",
+"Gieo gió gặt bão."
+],
+correct:0,
+explain:"Dùng mưu mô hại người nhưng cuối cùng lại tự làm hại chính bản thân."
+},
+
+{
+type:"situation",
+question:"Hai công ty công nghệ đối thủ cùng chịu chung sự sụt giảm nguồn cung ứng linh kiện nên phải hỗ trợ nhau vượt khó. Câu nào miêu tả đúng?",
+answers:[
+"Môi hở răng lạnh.",
+"Đồng bệnh tương lân.",
+"Cá lớn nuốt cá bé."
+],
+correct:0,
+explain:"Hai bên có liên quan mật thiết, một bên tổn hại sẽ kéo theo bên kia bị ảnh hưởng."
+},
+
+{
+type:"situation",
+question:"Một học sinh nghịch ngợm thường xuyên bị cô giáo nhắc nhở nhưng vẫn không chịu thay đổi, coi lời nhắc nhở như không có gì. Câu nào phù hợp?",
+answers:[
+"Nước đổ lá khoai.",
+"Đàn gảy tai trâu.",
+"Thùng rỗng kêu to."
+],
+correct:0,
+explain:"Lời khuyên răn vô ích, người nghe không tiếp thu hay tiếp nhận được gì."
+},
+
+{
+type:"situation",
+question:"Một người thuyết trình trước nhóm người hoàn toàn không hiểu gì về chuyên môn của mình nên không ai quan tâm. Tình huống này giống câu nào?",
+answers:[
+"Đàn gảy tai trâu.",
+"Khôn nhà dại chợ.",
+"Biết thì thưa thốt."
+],
+correct:0,
+explain:"Nói chuyện hay giải thích điều sâu xa với người không hiểu biết gì về vấn đề đó."
+},
+
+{
+type:"situation",
+question:"Một tiểu thương dùng tiền mua hàng chất lượng cao giá tốt từ sớm, sau đó bán lại với giá hời. Câu nào phản ánh điều này?",
+answers:[
+"Buôn may bán đắt.",
+"Một vốn bốn lời.",
+"Đồng tiền đi trước là đồng tiền khôn."
+],
+correct:1,
+explain:"Kinh doanh thuận lợi mang lại lợi nhuận cao gấp nhiều lần vốn bỏ ra."
+},
+
+{
+type:"situation",
+question:"Dù rất thèm ăn đồ ngọt nhưng người bị tiểu đường vẫn kiên quyết từ chối để bảo vệ sức khỏe của mình. Câu tục ngữ nào phù hợp?",
+answers:[
+"Bệnh tòng khẩu nhập.",
+"Ăn có chừng, chơi có độ.",
+"Ăn chắc mặc bền."
+],
+correct:1,
+explain:"Khuyên con người biết kiềm chế bản thân, ăn uống và sinh hoạt có chừng mực."
+},
+
+{
+type:"situation",
+question:"Một tập thể gồm những người cùng chung cảnh ngộ nghèo khó nên rất thấu hiểu và san sẻ khó khăn với nhau. Câu nào phù hợp?",
+answers:[
+"Đồng bệnh tương lân.",
+"Lá lành đùm lá rách.",
+"Một con ngựa đau cả tàu bỏ cỏ."
+],
+correct:0,
+explain:"Những người cùng chịu một nỗi đau, hoàn cảnh hoạn nạn dễ đồng cảm với nhau."
+},
+
+{
+type:"meaning",
+question:"Vỏ quýt dày có móng tay nhọn.",
+answers:[
+"Người xảo quyệt, lợi hại sẽ có người tài giỏi hoặc cao tay hơn trị phục.",
+"Gọt vỏ quýt cần móng tay nhọn.",
+"Người khôn ngoan không nên ăn quýt dày vỏ."
+],
+correct:0,
+explain:"Kẻ gian xảo dù mưu mô đến đâu rồi cũng gặp đối thủ xứng tầm chế ngự."
+},
+
+{
+type:"meaning",
+question:"Tránh vỏ dưa gặp vỏ dừa.",
+answers:[
+"Tránh được khó khăn này lại vấp phải khó khăn khác tương tự hoặc nặng hơn.",
+"Không nên vứt vỏ trái cây ra đường.",
+"Vỏ dừa trơn hơn vỏ dưa."
+],
+correct:0,
+explain:"Chỉ tình cảnh thoát khỏi điều không may này lại rơi ngay vào điều xui xẻo khác."
+},
+
+{
+type:"meaning",
+question:"Nuôi ong tay áo.",
+answers:[
+"Chăm sóc, giúp đỡ cho kẻ phản trắc hại lại chính mình.",
+"Nuôi ong lấy mật rất khó khăn.",
+"Tay áo rộng dễ giấu đồ vật."
+],
+correct:0,
+explain:"Phê phán hành vi che chở, tin cậy nhầm kẻ bội bạc, phản bội."
+},
+
+{
+type:"meaning",
+question:"Gậy ông đập lưng ông.",
+answers:[
+"Gậy bằng gỗ rất dễ gãy.",
+"Dùng mưu đồ, thủ đoạn hại người nhưng chính mình lại gánh chịu hậu quả đó.",
+"Người già nên cẩn thận khi dùng gậy."
+],
+correct:1,
+explain:"Chỉ việc mưu hại người khác nhưng chính cái bẫy đó lại quay về làm hại bản thân."
+},
+
+{
+type:"meaning",
+question:"Được đằng chân, lân đằng đầu.",
+answers:[
+"Người được nhường nhịn, chiều chuộng lại càng tham lam, lấn lướt.",
+"Bước từng bước một sẽ lên đỉnh núi.",
+"Người tham vọng sẽ thành công."
+],
+correct:0,
+explain:"Phê phán tính tham lam, không biết giới hạn khi được người khác nhân nhượng."
+},
+
+{
+type:"meaning",
+question:"Liệu cơm gắp mắm.",
+answers:[
+"Cần phải ăn mắm chung với cơm.",
+"Biết cân nhắc điều kiện, khả năng của mình để hành động cho phù hợp.",
+"Người biết ăn uống sẽ khỏe mạnh."
+],
+correct:1,
+explain:"Khuyên con người hành động và chi tiêu tương xứng với năng lực của bản thân."
+},
+
+{
+type:"meaning",
+question:"Thấy người ăn khoai cũng vác mai đi đào.",
+answers:[
+"Khoai lang là món ăn rất bổ dưỡng.",
+"Hành động bắt chước người khác một cách mù quáng, không tính đến khả năng của mình.",
+"Lao động chăm chỉ đào bới sẽ có ăn."
+],
+correct:1,
+explain:"Châm biếm thói a dua, thấy người ta làm được thì học đòi làm theo mà không suy xét."
+},
+
+{
+type:"meaning",
+question:"Đẽo cày giữa đường.",
+answers:[
+"Thiếu chủ kiến, nghe theo mọi ý kiến xung quanh nên cuối cùng thất bại.",
+"Nghề thợ mộc phải làm ở xưởng.",
+"Không nên đẽo cày bên đường vì nguy hiểm."
+],
+correct:0,
+explain:"Phê phán người không có lập trường kiên định, ai nói gì cũng đổi ý dẫn đến hỏng việc."
+},
+
+{
+type:"meaning",
+question:"Làm khi lành để dành khi đau.",
+answers:[
+"Khi khỏe mạnh, thuận lợi cần biết tiết kiệm, tích lũy để phòng lúc ốm đau hoạn nạn.",
+"Người ốm đau không nên làm việc nặng.",
+"Chỉ cần làm việc khi cảm thấy vui vẻ."
+],
+correct:0,
+explain:"Khuyên con người lo xa, biết phòng cơ tích cốc trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Đi mắc núi, về mắc sông.",
+answers:[
+"Giao thông vùng rừng núi rất trắc trở.",
+"Lâm vào hoàn cảnh tiến thoái lưỡng nan, không biết giải quyết ra sao.",
+"Nên đi đường vòng để an toàn hơn."
+],
+correct:1,
+explain:"Diễn tả trạng thái bế tắc, tiến không được mà thoái cũng không xong."
+},
+
+{
+type:"meaning",
+question:"Núi cao còn có núi cao hơn.",
+answers:[
+"Địa hình Trái Đất có nhiều đỉnh núi cao.",
+"Khuyên con người nên khiêm tốn vì ngoài xã hội luôn có người giỏi hơn mình.",
+"Leo núi là môn thể thao rèn luyện sức khỏe."
+],
+correct:1,
+explain:"Nhắc nhở đừng bao giờ tự cao tự đại vì tài năng của con người là vô hạn."
+},
+
+{
+type:"meaning",
+question:"Nước đến chân mới nhảy.",
+answers:[
+"Nhảy qua dòng nước lũ rất nguy hiểm.",
+"Chỉ thói quen chần chừ, nước đến sát người mới vội vã đối phó.",
+"Nên học bơi để không bị ướt chân."
+],
+correct:1,
+explain:"Phê phán tác phong làm việc lề mề, trì trệ cho đến lúc quá muộn."
+},
+
+{
+type:"meaning",
+question:"Môi hở răng lạnh.",
+answers:[
+"Răng miệng cần được bảo vệ kỹ khi trời lạnh.",
+"Những người hoặc sự vật có mối liên hệ mật thiết, một bên suy yếu thì bên kia bị ảnh hưởng.",
+"Nên đeo khẩu trang để giữ ấm môi."
+],
+correct:1,
+explain:"Đề cao mối quan hệ ràng buộc khăng khít, bảo vệ lẫn nhau để cùng tồn tại."
+},
+
+{
+type:"meaning",
+question:"Cần cù bù thông minh.",
+answers:[
+"Sự chăm chỉ, kiên trì có thể bù đắp lại những thiếu hụt về năng lực tự nhiên.",
+"Người thông minh không cần chăm chỉ.",
+"Chỉ có thông minh mới làm nên việc lớn."
+],
+correct:0,
+explain:"Khẳng định giá trị của sự siêng năng, chịu khó vượt lên hoàn cảnh."
+},
+
+{
+type:"meaning",
+question:"Ăn cháo đá bát.",
+answers:[
+"Ăn cháo xong phải rửa sạch bát đĩa.",
+"Phê phán kẻ bạc bẽo, vô ơn, quay lưng lại với người đã cưu mang giúp đỡ mình.",
+"Bát làm bằng sứ rất dễ vỡ."
+],
+correct:1,
+explain:"Lên án thói vong ân bội nghĩa trong quan hệ đối nhân xử thế."
+},
+
+{
+type:"meaning",
+question:"Mèo mù vớ cá rán.",
+answers:[
+"Mèo rất thích ăn cá rán thơm ngon.",
+"Gặp may mắn bất ngờ do hoàn cảnh đưa lại chứ không phải do tài năng thực sự.",
+"Mèo mù không thể bắt được cá."
+],
+correct:1,
+explain:"Chỉ những thành công ngẫu nhiên bắt nguồn từ sự may mắn thuần túy."
+},
+
+{
+type:"meaning",
+question:"Há miệng chờ sung.",
+answers:[
+"Quả sung chín ngọt và tự rụng xuống.",
+"Chỉ thói lười biếng, thụ động, trông chờ điều may mắn đến mà không chịu nỗ lực.",
+"Ăn sung có lợi cho sức khỏe."
+],
+correct:1,
+explain:"Phê phán những kẻ không chịu lao động mà muốn hưởng thụ thành quả."
+},
+
+{
+type:"meaning",
+question:"Uốn lưỡi bảy lần trước khi nói.",
+answers:[
+"Rèn luyện cơ miệng để phát âm chuẩn xác.",
+"Khuyên phải cân nhắc, suy nghĩ thật kỹ càng trước khi phát ngôn.",
+"Không nên nói quá nhanh."
+],
+correct:1,
+explain:"Nhắc nhở con người luôn cẩn trọng trong lời ăn tiếng nói để tránh họa miệng."
+},
+
+{
+type:"meaning",
+question:"Cơm sôi bớt lửa, chẳng đời nào khê.",
+answers:[
+"Nấu cơm phải canh ngọn lửa thật chuẩn.",
+"Trong gia đình khi nảy sinh mâu thuẫn, biết nhường nhịn làm dịu tình hình sẽ tránh được đổ vỡ.",
+"Cơm khê ăn không tốt cho dạ dày."
+],
+correct:1,
+explain:"Khuyên biết kìm nén cơn giận và nhún nhường để bảo vệ hạnh phúc gia đình."
+},
+
+{
+type:"meaning",
+question:"Trâu chậm uống nước đục.",
+answers:[
+"Người chậm chạp, thiếu quyết đoán thường phải chịu phần thua thiệt.",
+"Trâu đi sau thường khát nước hơn.",
+"Không nên cho trâu uống nước hồ."
+],
+correct:0,
+explain:"Khuyên con người phải nhanh nhạy, chớp thời cơ trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Sai một ly, đi một dặm.",
+answers:[
+"Một sai sót nhỏ ban đầu có thể dẫn đến hậu quả sai lệch vô cùng lớn.",
+"Đi đường xa cần dùng la bàn.",
+"Khoảng cách một ly là rất ngắn."
+],
+correct:0,
+explain:"Nhắc nhở tính chính xác và cẩn thận, sai lầm nhỏ sẽ dẫn đến lệch lạc to lớn."
+},
+
+{
+type:"meaning",
+question:"Đàn gảy tai trâu.",
+answers:[
+"Nói điều hay lẽ phải cho kẻ không hiểu biết hoặc không muốn tiếp thu.",
+"Con trâu không biết thưởng thức âm nhạc.",
+"Không nên mang đàn ra đồng cỏ."
+],
+correct:0,
+explain:"Chỉ sự phí công khi khuyên răn hay truyền đạt điều sâu sắc cho kẻ ngu muội."
+},
+
+{
+type:"meaning",
+question:"Nước đổ lá khoai.",
+answers:[
+"Lá khoai không thấm nước.",
+"Lời khuyên răn không đọng lại chút gì, người nghe hoàn toàn phớt lờ.",
+"Trời mưa làm ướt vườn khoai."
+],
+correct:1,
+explain:"Ví sự vô ích của lời khuyên bảo khi người nhận không chịu tiếp thu."
+},
+
+{
+type:"meaning",
+question:"Chị ngã em nâng.",
+answers:[
+"Chị em trong nhà phải biết quan tâm, nương tựa và giúp đỡ lẫn nhau khi gặp hoạn nạn.",
+"Đi đứng phải cẩn thận kẻo ngã.",
+"Chị em gái thường hay chơi đùa cùng nhau."
+],
+correct:0,
+explain:"Ca ngợi tình cảm gắn bó, nâng đỡ lẫn nhau của anh chị em ruột thịt."
+},
+
+{
+type:"meaning",
+question:"Máu chảy ruột mềm.",
+answers:[
+"Máu nuôi dưỡng lục phủ ngũ tạng.",
+"Người cùng ruột thịt gặp đau thương thì mình cũng cảm thấy xót xa vô cùng.",
+"Vết thương chảy máu gây đau đớn."
+],
+correct:1,
+explain:"Tình cảm gắn bó huyết thống thiêng liêng giữa những người ruột thịt."
+},
+
+{
+type:"meaning",
+question:"Tay làm hàm nhai, tay quai miệng trễ.",
+answers:[
+"Có lao động vất vả thì mới có cái ăn, lười biếng thì phải chịu cảnh đói nghèo.",
+"Tay dính bẩn thì không nên cầm thức ăn.",
+"Làm việc nhiều sẽ đau tay mỏi miệng."
+],
+correct:0,
+explain:"Đề cao lao động sản xuất chân chính, phê phán sự biếng nhác."
+},
+
+{
+type:"meaning",
+question:"Bệnh tòng khẩu nhập, họa tòng khẩu xuất.",
+answers:[
+"Bệnh tật do ăn uống bừa bãi mà vào, tai họa do ăn nói bất cẩn mà ra.",
+"Người có bệnh không nên nói to.",
+"Miệng là nơi dễ tổn thương nhất."
+],
+correct:0,
+explain:"Khuyên cẩn trọng trong cả ăn uống lẫn lời ăn tiếng nói hàng ngày."
+},
+
+{
+type:"meaning",
+question:"Đồng bệnh tương lân.",
+answers:[
+"Những người cùng chịu cảnh ngộ, hoạn nạn thường dễ thấu hiểu và thương cảm nhau.",
+"Mắc chung một chứng bệnh truyền nhiễm.",
+"Người ốm nên nằm chung phòng bệnh."
+],
+correct:0,
+explain:"Chỉ sự đồng cảm sâu sắc giữa những người cùng chia sẻ một nỗi đau hay hoàn cảnh."
+},
+
+{
+type:"meaning",
+question:"Ăn có chừng, chơi có độ.",
+answers:[
+"Khuyên con người nên biết sống chừng mực, điều độ trong mọi sinh hoạt.",
+"Không nên ăn quá nhiều món một lúc.",
+"Chơi trò chơi cần tuân thủ thời gian."
+],
+correct:0,
+explain:"Nhắc nhở con người duy trì lối sống lành mạnh, không buông thả."
+},
+
+{
+type:"meaning",
+question:"Vạn sự khởi đầu nan.",
+answers:[
+"Mọi công việc khi bắt đầu đều gặp khó khăn, cần kiên trì vượt qua.",
+"Khởi đầu khó khăn thì nên bỏ dở.",
+"Làm việc lớn không cần quan tâm bước đầu."
+],
+correct:0,
+explain:"Động viên con người không nản chí trước những thử thách đầu tiên khi khởi nghiệp."
+},
+
+{
+type:"meaning",
+question:"Thua thầy một vạn không bằng thua bạn một ly.",
+answers:[
+"Thua thầy là chuyện bình thường, nhưng thua kém bạn bè đồng trang lứa là điều đáng hổ thẹn để phấn đấu.",
+"Thầy cô luôn giỏi hơn học trò một vạn lần.",
+"Bạn bè nên nhường nhịn nhau từng chút một."
+],
+correct:0,
+explain:"Khích lệ tinh thần tự tôn và ý chí học hỏi, vươn lên bằng bạn bằng bè."
+},
+
+{
+type:"meaning",
+question:"Lạt mềm buộc chặt.",
+answers:[
+"Dùng sự khéo léo, mềm dẻo và tế nhị nhiều khi lại đạt hiệu quả bền chặt hơn sự cứng rắn.",
+"Lạt tre non rất dễ đứt gãy.",
+"Buộc đồ vật phải dùng dây thật chặt."
+],
+correct:0,
+explain:"Nghệ thuật ứng xử mềm mỏng, nhu thắng cương để thu phục lòng người."
+},
+
+{
+type:"meaning",
+question:"Lời nói chẳng mất tiền mua, lựa lời mà nói cho vừa lòng nhau.",
+answers:[
+"Nên nói năng nhã nhặn, lịch sự và biết tôn trọng cảm xúc của người đối diện.",
+"Nói chuyện không tốn tiền bạc.",
+"Nên nịnh hót để làm hài lòng người khác."
+],
+correct:0,
+explain:"Khuyên lựa chọn ngôn từ hòa nhã, đúng mực để giữ gìn quan hệ tốt đẹp."
+},
+
+{
+type:"meaning",
+question:"Chớ thấy sóng cả mà ngã tay chèo.",
+answers:[
+"Đừng vì thấy khó khăn, thử thách lớn trước mắt mà nản lòng, buông xuôi bỏ cuộc.",
+"Khi có bão lớn thì không nên chèo thuyền ra khơi.",
+"Chèo thuyền ngược dòng cần nhiều sức lực."
+],
+correct:0,
+explain:"Khuyên giữ vững tinh thần, kiên cường vượt qua phong ba bão táp của cuộc đời."
+},
+
+{
+type:"meaning",
+question:"Một giọt máu đào hơn ao nước lã.",
+answers:[
+"Tình cảm huyết thống gia đình luôn thiêng liêng, gắn bó hơn các mối quan hệ người ngoài.",
+"Máu đỏ tươi quý giá hơn nước suối mát.",
+"Không nên uống nước lã trong ao hồ."
+],
+correct:0,
+explain:"Khẳng định sự thiêng liêng và vị trí ưu tiên số một của tình ruột thịt."
+},
+
+{
+type:"meaning",
+question:"Gió tầng nào gặp mây tầng đó.",
+answers:[
+"Người có phẩm chất, trình độ và năng lực tương đồng sẽ tự nhiên tìm thấy và gắn kết với nhau.",
+"Tầng đối lưu của khí quyển sinh ra các loại mây.",
+"Gió càng lớn thì mây trôi càng nhanh."
+],
+correct:0,
+explain:"Quy luật đồng thanh tương ứng, con người tìm đến nhau nhờ sự tương thích về tầm nhìn, đạo đức."
+},
+
+{
+type:"meaning",
+question:"Ăn trông nồi, ngồi trông hướng.",
+answers:[
+"Nhắc nhở con người phải luôn ý tứ, lịch thiệp và biết quan sát hoàn cảnh xung quanh trong ứng xử.",
+"Khi ăn cơm phải quan sát xem còn bao nhiêu trong nồi.",
+"Ngồi ăn cơm phải chọn hướng gió thoáng mát."
+],
+correct:0,
+explain:"Bài học về sự tinh tế, lịch sự và tôn trọng người khác trong nếp sinh hoạt hàng ngày."
+},
+
+{
+type:"meaning",
+question:"Có thực mới vực được đạo.",
+answers:[
+"Con người cần đáp ứng các nhu cầu vật chất tối thiểu trước khi tính đến những điều cao xa.",
+"Muốn học đạo cần phải ăn chay niệm Phật.",
+"Ăn thật no mới có sức làm việc nặng."
+],
+correct:0,
+explain:"Khẳng định cơ sở vật chất là tiền đề thiết yếu cho sự phát triển tinh thần và đạo lý."
+},
+
+{
+type:"meaning",
+question:"Đi một ngày đàng, học một sàng khôn.",
+answers:[
+"Càng đi nhiều nơi, trải nghiệm thực tế nhiều thì càng tích lũy được nhiều hiểu biết và kinh nghiệm quý báu.",
+"Đi bộ mỗi ngày sẽ nâng cao sức khỏe.",
+"Mang theo sàng gạo khi đi xa để học nghề."
+],
+correct:0,
+explain:"Khuyến khích con người dấn thân, cọ xát với đời để mở rộng tầm mắt và tri thức."
+},
+
+{
+type:"meaning",
+question:"Thất bại là mẹ thành công.",
+answers:[
+"Những thất bại, vấp ngã đem lại bài học kinh nghiệm sâu sắc để bước tới thành công sau này.",
+"Người thành công chưa từng bao giờ thất bại.",
+"Thất bại là điều đáng xấu hổ trong cuộc sống."
+],
+correct:0,
+explain:"Động viên con người không sợ thất bại mà phải biết đúc rút bài học để đứng lên mạnh mẽ hơn."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên con người ta phải giữ lòng trung thực, không tham lam của cải phi nghĩa?",
+answers:[
+"Đói cho sạch, rách cho thơm.",
+"Tay làm hàm nhai.",
+"Nhặt được của rơi trả người đánh mất."
+],
+correct:0,
+explain:"Dù trong bất kỳ nghịch cảnh nghèo khổ nào vẫn giữ gìn khí tiết và đạo đức."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở chúng ta về sức mạnh của sự kết nối và sẻ chia giữa các thành viên cùng dòng dõi?",
+answers:[
+"Máu chảy ruột mềm.",
+"Gần mực thì đen, gần đèn thì sáng.",
+"Có đức mặc sức mà ăn."
+],
+correct:0,
+explain:"Nỗi đau của người thân ruột thịt cũng là nỗi đau đớn chung của cả gia đình."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên bảo vợ chồng phải biết đồng lòng, hỗ trợ nhau thì việc to lớn đến đâu cũng hoàn thành?",
+answers:[
+"Thuận vợ thuận chồng, tát biển Đông cũng cạn.",
+"Cơm sôi bớt lửa, chẳng đời nào khê.",
+"Giàu vì bạn, sang vì vợ."
+],
+correct:0,
+explain:"Tình cảm hòa hợp và sự đồng thuận của vợ chồng tạo nên sức mạnh vô biên."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào châm biếm người có lối nói chuyện khó nghe, gay gắt khiến người khác khó tiếp nhận?",
+answers:[
+"Nói như đấm vào tai.",
+"Lời nói gói vàng.",
+"Nói có sách mách có chứng."
+],
+correct:0,
+explain:"Chỉ cách nói chuyện cộc cằn, gay gắt gây cảm giác khó chịu cho người nghe."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên người làm ăn buôn bán phải lấy chữ tín và chất lượng làm đầu thay vì gian lận?",
+answers:[
+"Treo đầu dê bán thịt chó.",
+"Một lần bất tín, vạn lần bất tin.",
+"Buôn may bán đắt."
+],
+correct:1,
+explain:"Giữ gìn chữ tín là nền tảng cốt lõi của mối quan hệ kinh doanh lâu bền."
+},
+
+{
+type:"situation",
+question:"Một bác sĩ có tay nghề rất giỏi nhưng mở phòng khám ở vùng quê xa xôi, dần dần bệnh nhân khắp nơi vẫn tìm đến nhờ tiếng lành đồn xa. Câu nào phù hợp?",
+answers:[
+"Hữu xạ tự nhiên hương.",
+"Thùng rỗng kêu to.",
+"Mèo mù vớ cá rán."
+],
+correct:0,
+explain:"Tài năng và y đức thực sự sẽ tự lan tỏa danh tiếng mà không cần phô trương."
+},
+
+{
+type:"situation",
+question:"Nhóm sinh viên chia nhau cùng thiết kế một website, người làm giao diện, người làm cơ sở dữ liệu nên dự án hoàn thành trước thời hạn. Câu nào phù hợp?",
+answers:[
+"Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.",
+"Lắm thầy nhiều ma.",
+"Tay làm hàm nhai."
+],
+correct:0,
+explain:"Đoàn kết và phân chia công việc hợp lý tạo ra năng suất vượt trội."
+},
+
+{
+type:"situation",
+question:"Một lái xe bị khách phàn nàn vô cớ nhưng thay vì cãi vã, anh nhẹ nhàng giải thích và xin lỗi để chuyến xe tiếp tục vui vẻ. Câu nào phù hợp?",
+answers:[
+"Một điều nhịn, chín điều lành.",
+"Cơm sôi bớt lửa.",
+"Đi mắc núi về mắc sông."
+],
+correct:0,
+explain:"Nhẫn nhịn và nhã nhặn giúp hóa giải xung đột tức thì."
+},
+
+{
+type:"situation",
+question:"Một lập trình viên gặp lỗi code liên tục suốt một tuần nhưng không nản chí, cuối cùng đã tìm ra nguyên nhân và khắc phục hoàn hảo. Câu nào phù hợp?",
+answers:[
+"Có công mài sắt, có ngày nên kim.",
+"Nước chảy đá mòn.",
+"Cần cù bù thông minh."
+],
+correct:0,
+explain:"Kiên trì, nhẫn nại và bền bỉ theo đuổi mục tiêu sẽ mang lại kết quả xứng đáng."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo co thì ấm.",
+answers:[
+"Người biết cách thu xếp chi tiêu, sinh hoạt liệu theo điều kiện thì sẽ luôn ấm no, ổn định.",
+"Người ăn nhiều sẽ no lâu, mặc nhiều lớp áo sẽ ấm.",
+"Phải biết mua sắm đồ đắt tiền mới có cuộc sống đầy đủ."
+],
+correct:0,
+explain:"Khuyên con người phải biết liệu cơm gắp mắm, tính toán căn cơ trong đời sống hàng ngày."
+},
 {
 category:"Literature",
 question:"Trong câu 'Bàn tay ta làm nên tất cả', hình ảnh 'bàn tay' là biện pháp tu từ nào?",
